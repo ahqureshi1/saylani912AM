@@ -1,0 +1,5 @@
+git clone (from GitHub repo go to code and add code of http)
+git status
+git add .(if want to add one file then path name required)
+git commit -m "your commit"
+git push origin main
