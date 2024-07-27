@@ -1,0 +1,72 @@
+GITHUB (VERSION CONTROL SYSTEM)
+
+-code storage
+-team work(branching(qasim/dev) --> main/master
+-code versioning
+
+
+1. Local Configuration Setup
+	windows search (Web cridentials --> Windows credential --> 
+	Make sure GitHub bash is installedg
+	Choose any directory where you want to create repo eg: D:
+	Create a folder name "github-lear-repo" (It could b any name of repo)
+	Goto "gitHub - learn - repo" & open git bash
+In Gitbash:
+	1. git init (To initiliaze git, it will make a folder .git which will be hidden)
+-Make sure your user name and configuration is given
+	2. git config --global user.name "<git hub user name should be there>"
+	3. git config --global user.email "<your email of github>"
+-To validate above configuration run following command
+	4. git config --global user.name (To check)
+	5. git config --global user.email (To check)
+
+2. GIT Connectivity with remote repo:
+-Make sure you should have GitHub account
+-Login to your GitHub account and create a new repo
+-Name the new repo and add description and make it public repo
+-After giving all credintials click on create reposotry
+
+Go to Gitbash again
+	6. git status (it shows all untracked files untracked files are of red coloured)
+	7. git add README.md (it will track untracked files and step into unstaging position)
+	8. git status (Now it will shows the file is tracked and it will now show in green colour)
+	9. git add -A OR git add . (to unstage all files in folder)
+	10. git commit -m "First commit"
+	11. git branch -M main (if branch name is set to master then change it to main)
+	12. git remote add origin (repo link should be pasted here) 
+	13. git push -u origin main/master(to push data, main/master is your branch name)
+	
+when only remote have changed
+to connect remote to local
+--> git pull ( to upstream your local branch to remote)
+(--when remote is ahead of your local)
+
+when both have changed local and remote
+after changing local or remote work
+
+git stash( local to notebook)
+git merge (upstream  and local same hojaega)
+git stash pop
+again check git status
+git commit -m "updated"
+git push
+
+git fetch
+git merge origin/master	
+
+git add assignment.txt
+git commit -m "updated"
+git push
+	
+BRANCHING
+git branch -a (status about no of branches and working branches)
+git checkout -b task/qasim (create new branch and go to that branch)
+git add  -->commit --> push
+--on git remote you 
+
+git branch -a
+git status
+git commit -m "nasmsm"
+git push 
+
+	
